@@ -21,7 +21,6 @@
             //True factory
             oven = new BurgerCreator().GetOven();
             oven.Prepare();
-
             oven = new PizzaCreator().GetOven();
             oven.Prepare();
 
